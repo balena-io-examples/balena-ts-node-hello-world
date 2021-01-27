@@ -1,7 +1,7 @@
 {
-  "name": "simple-server-node",
+  "name": "balena-ts-node-hello-world",
   "version": "1.0.0",
-  "description": "A simple Expressjs Web server on balena",
+  "description": "A simple TypeScript Node.js Express server",
   "main": "server.js",
   "scripts": {
     "build": "tsc",
@@ -9,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/balena-io-projects/simple-server-node.git"
+    "url": "git+https://github.com/balena-io-examples/balena-ts-node-hello-world.git"
   },
   "keywords": [
     "webserver",
     "nodejs",
-    "expressjs"
+    "expressjs",
+    "typescript"
   ],
-  "author": "Shaun Mulligan <shaun@balena.io>",
+  "author": "Stathis Moraitidis <stathis@balena.io>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/balena-io-projects/simple-server-node/issues"
+    "url": "https://github.com/balena-io-examples/balena-ts-node-hello-world/issues"
   },
-  "homepage": "https://github.com/balena-io-projects/simple-server-node#readme",
+  "homepage": "https://github.com/balena-io-examples/balena-ts-node-hello-world#readme",
   "dependencies": {
     "ejs": "*",
     "express": "*",

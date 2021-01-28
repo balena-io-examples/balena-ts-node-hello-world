@@ -1,9 +1,9 @@
-import express, { Request, Response } from 'express';
+import express, { Application, Request, Response } from 'express';
 import { renderFile } from 'ejs';
 
 const PORT = 80;
 
-const app = express();
+const app: Application = express();
 
 // Enable HTML template middleware
 app.engine('html', renderFile);

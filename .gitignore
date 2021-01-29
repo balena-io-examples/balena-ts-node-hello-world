@@ -1,10 +1,10 @@
-# Temporary files.
+# Temporary files
 .#*
 
-# Log files.
+# Log files
 *.log
 
-# Don't push node_modules or dist - we want the build server to install and build these.
+# Install and build directories
 node_modules/
 dist/
 

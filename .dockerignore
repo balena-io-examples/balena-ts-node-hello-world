@@ -1,0 +1,3 @@
+# Don't send node_modules or dist to the daemon - we want the build server to install and build these.
+node_modules
+dist

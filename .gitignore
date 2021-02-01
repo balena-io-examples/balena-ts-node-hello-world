@@ -1,0 +1,12 @@
+# Temporary files
+.#*
+
+# Log files
+*.log
+
+# Install and build directories
+node_modules/
+dist/
+
+#OSX hidden metadata file
+.DS_Store
